@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Osgi_equinox022
+Bundle-SymbolicName: osgi_equinox022
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.xfboy.osgi_equinox_cmpt.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.xfboy.osgi_equinox.contract,
+ org.osgi.framework;version="1.3.0"
+Service-Component: OSGI-INF/component.xml

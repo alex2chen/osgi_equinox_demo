@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="osgi_equinox033">
+   <implementation class="com.xfboy.osgi_equinox_client.HelloServiceRef"/>
+   <reference bind="setHelloService" cardinality="1..1" interface="com.xfboy.osgi_equinox.contract.HelloService" name="HelloService" policy="static" unbind="unsetHelloService"/>
+   <service>
+      <provide interface="org.eclipse.osgi.framework.console.CommandProvider"/>
+   </service>
+</scr:component>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Osgi_equinox06
+Bundle-SymbolicName: osgi_equinox06
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.xfboy.osgi_equinox_di.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.osgi.framework;version="1.3.0",
+ org.osgi.service.http;version="1.2.1",
+ org.osgi.service.log;version="1.3.0"
+Export-Package: com.xfboy.osgi_equinox_di.service
+Require-Bundle: javax.servlet;bundle-version="3.0.0"

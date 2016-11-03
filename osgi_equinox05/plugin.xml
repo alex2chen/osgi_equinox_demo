@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<extension point="org.eclipse.equinox.http.registry.resources">
+			<resource alias="/web" base-name="/WebContent"></resource>
+	</extension>
+	<extension point="org.eclipse.equinox.http.registry.servlets">
+			<servlet alias="/hello" class="com.xfboy.osgi_equinox.servlet.HelloServlet"></servlet>	
+	</extension>
+ <extension
+       point="org.eclipse.equinox.http.registry.servlets">
+       <servlet alias="/jsp/*.jsp" class="org.eclipse.equinox.jsp.jasper.registry.JSPFactory:/WebContent/jsp"></servlet>	
+ </extension></plugin>
+ 

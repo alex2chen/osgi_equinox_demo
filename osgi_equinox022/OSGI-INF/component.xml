@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="osgi_equinox022">
+   <implementation class="com.xfboy.osgi_equinox_cmpt.impl.HelloServiceImpl"/>
+   <service>
+      <provide interface="com.xfboy.osgi_equinox.contract.HelloService"/>
+   </service>
+</scr:component>
